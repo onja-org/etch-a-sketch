@@ -12,6 +12,19 @@
 			<canvas width="1600" height="1000" id="etch-a-sketch"></canvas>
 			<div class="buttons">
 				<button class="shake">Shake!</button>
+				<button data-key="ArrowUp" class="shake command">Up</button>
+				<button data-key="ArrowDown" class="shake command">Down</button>
+				<button data-key="ArrowLeft" class="shake command">Left</button>
+				<button data-key="ArrowRight" class="shake command">Right</button>
+				<input type="range" class="range" name="points" min="30" max="80" />
+				<select name="color-change" id="color-change">
+					<option value="rainbow">Rainbow</option>
+					<option value="random">random</option>
+					<option value="blue">Blue</option>
+					<option value="red">Red</option>
+					<option value="green">Green</option>
+					<option value="yellow">Yellow</option>
+				</select>
 			</div>
 		</div>
 		<script src="./script.js"></script>
